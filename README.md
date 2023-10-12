@@ -1,5 +1,14 @@
 # Movie Picture Pipeline
 
+My Repo
+
+```
+https://github.com/hovanwick/udacity-build-cicd-project
+```
+
+[![Backend Continuous Integration](https://github.com/hovanwick/udacity-build-cicd-project/actions/workflows/backend-ci.yaml/badge.svg)](https://github.com/hovanwick/udacity-build-cicd-project/actions/workflows/backend-ci.yaml) | [![Backend Continuous Deployment](https://github.com/hovanwick/udacity-build-cicd-project/actions/workflows/backend-cd.yaml/badge.svg)](https://github.com/hovanwick/udacity-build-cicd-project/actions/workflows/backend-cd.yaml) |
+[![Frontend Continuous Integration](https://github.com/hovanwick/udacity-build-cicd-project/actions/workflows/frontend-ci.yaml/badge.svg)](https://github.com/hovanwick/udacity-build-cicd-project/actions/workflows/frontend-ci.yaml) | [![Frontend Continuous Deployment](https://github.com/hovanwick/udacity-build-cicd-project/actions/workflows/frontend-cd.yaml/badge.svg)](https://github.com/hovanwick/udacity-build-cicd-project/actions/workflows/frontend-cd.yaml) |
+
 You've been brought on as the DevOps resource for a development team that manages a web application that is a catalog of Movie Picture movies. They're in dire need of automating their development workflows in hopes of accelerating their release cycle. They'd like to use Github Actions to automate testing, building and deploying their applications to an existing Kubernetes cluster.
 
 The team's project is comprised of 2 applications.
