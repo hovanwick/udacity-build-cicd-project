@@ -6,9 +6,9 @@ on:
   push:
     branches:
       - main
-    paths:
-      # This will only run on changes to the backend code
-      - 'starter/backend/**'
+    # paths:
+    #   # This will only run on changes to the backend code
+    #   - 'starter/backend/**'
 
 env:
   PYTHON_VERSION: 3.11

@@ -6,9 +6,9 @@ on:
   push:
     branches:
       - main
-    paths:
-      # This will only run on changes to the frontend code
-      - 'starter/frontend/**'
+    # paths:
+    #   # This will only run on changes to the frontend code
+    #   - 'starter/frontend/**'
 env:
   NODE_VERSION: 18.x
 

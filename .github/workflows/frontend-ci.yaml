@@ -6,9 +6,9 @@ on:
   pull_request:
     branches:
       - main
-    paths:
-      # This will only run on changes to the frontend code
-      - "starter/frontend/**"
+    # paths:
+    #   # This will only run on changes to the frontend code
+    #   - "starter/frontend/**"
 env:
   NODE_VERSION: 18.x
 
@@ -83,7 +83,7 @@ jobs:
         id: login-ecr
         uses: aws-actions/amazon-ecr-login@v1
         with:
-          mask-password: "true"
+          mask-password: 'true'
 
       - name: Build, Tag, and Push docker image
         env:

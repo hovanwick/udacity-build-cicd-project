@@ -6,9 +6,9 @@ on:
   pull_request:
     branches:
       - main
-    paths:
-      # This will only run on changes to the backend code
-      - "starter/backend/**"
+    # paths:
+    #   # This will only run on changes to the backend code
+    #   - "starter/backend/**"
 
 env:
   PYTHON_VERSION: 3.11
@@ -111,7 +111,7 @@ jobs:
         id: login-ecr
         uses: aws-actions/amazon-ecr-login@v1
         with:
-          mask-password: "true"
+          mask-password: 'true'
 
       - name: Build, Tag, and Push docker image
         env:
